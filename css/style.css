@@ -66,21 +66,21 @@ nav {
 }
 
 ul {
-
+  display: flex;
   align-self: center;
+  justify-content: flex-end;
   width: auto;
   height: auto;
-  text-align: right;
   list-style-type: none; 
   margin: 0;
   padding: 0;
-  overflow: hidden;
   font-size: 20px;
   font-family: 'PT Sans', sans-serif;
+  flex-direction: row-reverse;
 }
 
 li {
-  float: right;
+
 }
 
 li a {
@@ -120,11 +120,34 @@ article {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   text-align: center;
   padding: 20px 0px 20px 0px;
   font-size: 12px;
   color: #FFF;
 }
+
+/* CARDS */
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 0 1 calc(25% - 1em);
+  margin: 1rem .25em;
+}
+
+.card-image {
+
+  width: 100%;
+  height: auto;
+  max-width: 390px;
+}
+
 
 @media screen and (max-width: 1200px) {
   .header-container, .container {

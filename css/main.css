@@ -50,6 +50,7 @@ body {
 .foto-bartolome {
     max-width: 100%;
     height: auto;
+    transition: all 0.2s;
 }
 
 .container-banner {
@@ -80,12 +81,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0 0 20px 35px;
+    transition: all 0.2s;
 }
 
 .texto-artista {
     font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 35px;
+    transition: all 0.2s;
 }
 
 .container-enter {
@@ -96,6 +99,35 @@ body {
     font-size: 3vw;
     font-family: sans-serif;
     margin-top: 75px;
+}
+
+a.button-home{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    background-color: #5E5E5E;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    border: 2px solid #5E5E5E;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 0.8em;
+}
+
+    a.button-home:hover{
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+
+@media all and (max-width:30em){
+     a.button-home{
+        display: block;
+        margin: 0.4em auto;
+    }
 }
 
 @media screen and (max-width: 1020px) {

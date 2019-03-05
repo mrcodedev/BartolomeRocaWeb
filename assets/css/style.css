@@ -225,7 +225,13 @@ section {
 }
 
 .h2-article-title {
-    margin-top: 0;
+    margin: 0 0 15px 0;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.h2-article-title-gallery {
+    margin-bottom: 10px;
 }
 
 .image-section {
@@ -242,6 +248,10 @@ article {
 
 .article-container {
     padding: 35px 60px 35px 60px;
+}
+
+.article-container-gallery {
+    padding: 35px 60px 0px 60px;
 }
 
 
@@ -338,6 +348,21 @@ a.button {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+
+
+/* TEXT */
+
+.right-text {
+    text-align: right;
+}
+
+.end-author {
+    padding-top: 35px;
+}
+
+.center-text {
+    text-align: center;
 }
 
 @media all and (max-width: 30em) {

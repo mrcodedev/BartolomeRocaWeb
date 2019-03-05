@@ -471,7 +471,7 @@ a.button {
         justify-content: center;
     }
     li a {
-        width: 100%;
+        width: 200px;
         padding: 16px 0px 16px 0px;
     }
     nav {
@@ -479,6 +479,9 @@ a.button {
     }
     .burger-shower:checked~nav {
         display: block;
+    }
+    h1 {
+        font-size: 1.9em;
     }
 }
 
@@ -507,6 +510,18 @@ a.button {
     }
 }
 
+@media screen and (max-width: 420px) {
+    h1 {
+        font-size: 3vh;
+    }
+    h2 {
+        font-size: 3vh;
+    }
+    body {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 350px) {
     .container-home-button {
         margin-top: 5px;
@@ -528,6 +543,9 @@ a.button {
     }
     .card-image {
         width: 150px;
+    }
+    li a {
+        width: 120px;
     }
 }
 

@@ -268,7 +268,7 @@ footer {
     align-content: flex-end;
     text-align: center;
     padding: 30px 0px 30px 0px;
-    font-size: 18px;
+    font-size: 14px;
     color: #FFF;
     background-color: #100e17;
 }
@@ -289,6 +289,7 @@ a.button {
     text-decoration: none;
     color: white;
     background: black;
+    -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
 }
 
 
@@ -480,7 +481,7 @@ a.button {
     }
     #burger-toggle {
         display: block;
-        font-size: 35px;
+        font-size: 30px;
         padding-right: 14px;
     }
     #logo-name {
@@ -511,6 +512,10 @@ a.button {
     h1 {
         font-size: 1.9em;
     }
+
+    .article-container {
+        padding: 35px 35px 35px 35px;
+    }
 }
 
 @media screen and (max-width: 675px) {
@@ -529,6 +534,10 @@ a.button {
     .column {
         flex: 100%;
         max-width: 100%;
+    }
+
+    footer {
+        font-size: 1.6vh;
     }
 }
 
